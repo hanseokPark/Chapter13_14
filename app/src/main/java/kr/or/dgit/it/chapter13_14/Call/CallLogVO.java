@@ -1,4 +1,4 @@
-package kr.or.dgit.it.chapter13_14.Dao;
+package kr.or.dgit.it.chapter13_14.Call;
 
 public class CallLogVO {
     public String name;

@@ -2,11 +2,16 @@
 <resources>
     <string-array name="activities">
         <item>MyPlusMinusViewActivity</item>
+        <item>IntentForResultActivity</item>
+        <item>ImplictRunActivity</item>
         <item>Mission1</item>
-
+        <item>Mission2</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
+        <item>인텐트를 이용한 컴포넌트 실행</item>
+        <item>INTENT</item>
         <item>Mission1</item>
+        <item>Mission2</item>
     </string-array>
 </resources>
