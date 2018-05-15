@@ -4,14 +4,20 @@
         <item>MyPlusMinusViewActivity</item>
         <item>IntentForResultActivity</item>
         <item>ImplictRunActivity</item>
+        <item>LifeCycleActivity</item>
+        <item>RunningActivity</item>
         <item>Mission1</item>
         <item>Mission2</item>
+        <item>Lab15_2Activity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
         <item>인텐트를 이용한 컴포넌트 실행</item>
-        <item>INTENT</item>
+        <item>암시적 인텐트 실행</item>
+        <item>액티비티 라이프사이클</item>
+        <item>액티비티 생명주기</item>
         <item>Mission1</item>
         <item>Mission2</item>
+        <item>액티비티 설정</item>
     </string-array>
 </resources>
