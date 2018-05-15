@@ -10,6 +10,7 @@
         <item>Mission2</item>
         <item>Lab15_2Activity</item>
         <item>HandlerMessageActivity</item>
+        <item>AsyncTaskActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
@@ -21,5 +22,6 @@
         <item>Mission2</item>
         <item>액티비티 설정</item>
         <item>스레드와 핸들러</item>
+        <item>AsyncTask</item>
     </string-array>
 </resources>
