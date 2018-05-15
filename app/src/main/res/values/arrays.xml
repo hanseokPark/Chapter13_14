@@ -9,6 +9,7 @@
         <item>Mission1</item>
         <item>Mission2</item>
         <item>Lab15_2Activity</item>
+        <item>HandlerMessageActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
@@ -19,5 +20,6 @@
         <item>Mission1</item>
         <item>Mission2</item>
         <item>액티비티 설정</item>
+        <item>스레드와 핸들러</item>
     </string-array>
 </resources>

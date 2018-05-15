@@ -31,14 +31,17 @@
             android:name=".DialogActivity"
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".DetailActivity2" />
-        <activity android:name=".Lab15_2Activity"
-            android:windowSoftInputMode="adjustResize|stateHidden"
-            android:configChanges="orientation|screenSize">
+        <activity
+            android:name=".Lab15_2Activity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HandlerMessageActivity"></activity>
     </application>
 
 </manifest>
