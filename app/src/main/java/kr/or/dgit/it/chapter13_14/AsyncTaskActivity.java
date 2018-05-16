@@ -21,43 +21,50 @@ public class AsyncTaskActivity extends AppCompatActivity {
         tv = findViewById(R.id.main_textView);
 
 
-        asyncTask = new MyAsyncTask();
+        /*asyncTask = new MyAsyncTask();*/
 
 
     }
+}
 
+/*
 
     public void btnStart(View view) {
-        asyncTask.execute(5);
+        asyncTask.
+                execute();
     }
 
     public void btnPause(View view) {
 
     }
 
-    class MyAsyncTask extends AsyncTask<Void, Integer, String>{
+    class MyAsyncTask extends AsyncTask<String, Integer, String> {
 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-           Toast.makeText(AsyncTaskActivity.this, "onPreExecute", Toast.LENGTH_SHORT).show();
+            Toast.makeText(AsyncTaskActivity.this, "onPreExecute", Toast.LENGTH_SHORT).show();
         }
 
         @Override
-        protected String doInBackground(Void... voids) {
+        protected String doInBackground(String... voids) {
 
-            for(int i=0; i<5; i++){
+            for (int i = 0; i < 5; i++) {
                 publishProgress(i);
-            }
+                try {
+                    Thread.sleep(1000);
 
-            return "Finish!!";
-        }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return "Finish!!";
+            }
 
 
         @Override
         protected void onProgressUpdate(Integer... values) {
             super.onProgressUpdate(values);
-            tv.setText("aa" + values[0]);
+            tv.setText(String.valueOf(values[0]));
         }
 
         @Override
@@ -66,5 +73,7 @@ public class AsyncTaskActivity extends AppCompatActivity {
             super.onPostExecute(s);
             tv.setText(s);
         }
+
     }
 }
+*/
