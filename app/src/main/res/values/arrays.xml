@@ -11,6 +11,7 @@
         <item>Lab15_2Activity</item>
         <item>HandlerMessageActivity</item>
         <item>AsyncTaskActivity</item>
+        <item>ThreadLooperActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
@@ -23,5 +24,6 @@
         <item>액티비티 설정</item>
         <item>스레드와 핸들러</item>
         <item>AsyncTask</item>
+        <item>Looper를 이용한 스레드간 연동</item>
     </string-array>
 </resources>
